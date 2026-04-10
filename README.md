@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/logo" width="300" alt="ARISE Logo"/>
+  <img src="Statics/logo.png" width="300" alt="ARISE Logo"/>
    <br/>
    <h1>ARISE — Shadow System</h1>
    <strong>A native macOS AI Assistant inspired by Solo Leveling.</strong>
