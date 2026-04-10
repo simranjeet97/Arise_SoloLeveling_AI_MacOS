@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode / Swift Package Manager
+.build/
+build/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+*.xcuserdatad
+*.swp
+*.xcbridge
+xcuserdata/
+xcschemes/
+
+# Logs
+*.log
+test_output.log
+
+# Developer / Temporary Test Files
+testJournal.swift
+IconGenerator.swift
+
+# Environment Variables
+.env

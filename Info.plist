@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- ─── App Identity ─── -->
+    <key>CFBundleName</key>
+    <string>ARISE</string>
+    <key>CFBundleDisplayName</key>
+    <string>ARISE</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.arise.shadowsystem</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <!-- ─── macOS App type: Menu Bar Agent (no Dock icon) ─── -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <!-- ─── macOS minimum version ─── -->
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+
+    <!-- ─── Privacy – Microphone (for Whisper STT) ─── -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>ARISE uses your microphone to listen to your voice commands and shadow journal entries, which are transcribed locally via Whisper.</string>
+
+    <!-- ─── Privacy – Speech Recognition (optional future use) ─── -->
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>ARISE may use on-device speech recognition as a fallback for voice commands.</string>
+
+    <!-- ─── Appearance ─── -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <!-- Allow HTTPS calls to Anthropic and OpenAI -->
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>api.anthropic.com</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <false/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+            </dict>
+            <key>api.openai.com</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <false/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+
+    <!-- ─── Hardened Runtime / Entitlements (enable for distribution) ─── -->
+    <!-- Remove or adjust if not distributing via Mac App Store -->
+    <key>com.apple.security.device.audio-input</key>
+    <true/>
+</dict>
+</plist>
