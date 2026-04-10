@@ -1,13 +1,8 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Solo_Leveling_Webtoon_Logo.png" width="300" alt="ARISE Logo"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/logo" width="300" alt="ARISE Logo"/>
    <br/>
    <h1>ARISE — Shadow System</h1>
    <strong>A native macOS AI Assistant inspired by Solo Leveling.</strong>
-   <br/><br/>
-   <img src="Statics/Dashboard.png" height="500" alt="ARISE Dashboard" />
-   &nbsp;&nbsp;
-   <img src="Statics/PlayerStats.png" height="500" alt="ARISE Player Stats" />
-   <br/><br/>
 </div>
 
 ## 🌌 Overview
@@ -15,6 +10,10 @@
 **ARISE** is a gamified, autonomous macOS AI system designed to structure your daily life. Acting as a persistent "System", it tracks your stats, issues daily quests across multiple domains (Career, Physical, Emotional), analyses your shadow journal, and offers a beautiful, frictionless voice HUD powered by Google Gemini.
 
 Designed for peak productivity and gamification, ARISE helps you level up in real life. 
+
+<br/><br/>
+<img src="Statics/Dashboard.png" height="500" alt="ARISE Dashboard" />
+&nbsp;&nbsp;
 
 ---
 
@@ -39,6 +38,10 @@ Designed for peak productivity and gamification, ARISE helps you level up in rea
 ### 🌑 Shadow Journal
 - Let out your frustrations. The system analyzes your emotional state.
 - Stores historical journals, identifies `Mood/Intensity`, and triggers proactive systemic responses built on empathetic prompts.
+
+
+<img src="Statics/PlayerStats.png" height="500" alt="ARISE Player Stats" />
+<br/><br/>
 
 ---
 
